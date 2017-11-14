@@ -327,9 +327,6 @@ footer {
 }
 
 @media screen and (max-width: 920px) {
-    .container {
-        width: 100%;
-    }
     #resume .tab {
         width: 100%;
     }
