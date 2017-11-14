@@ -350,7 +350,5 @@ footer {
 @media screen and (min-width: 1200px) {
     .container {
         width: 1000px;
-        margin: 0;
-        padding: 0;
     }
 }
