@@ -116,7 +116,7 @@ body {
     margin-top: 10px;
 }
 
-center {
+.center {
     display: block;
     text-align: -webkit-center;
 }
@@ -145,9 +145,9 @@ center {
 
 .section-header {
     padding-top: 50px;
+    padding-bottom: 10px;
     border-bottom: 2px solid blue;
     background-color: white;
-    scroll-behavior: smooth;
 }
 
 .section:after,
@@ -238,6 +238,7 @@ center {
 }
 
 #projects h4 {
+    line-height: 30px;
     color: white;
     font-size: 14pt;
     background-color: #337ab7;
