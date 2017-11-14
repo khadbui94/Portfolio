@@ -2,7 +2,8 @@
 Reference: W3Schools**/
 
 .navbar {
-    position: relative;
+    position: fixed;
+    top: 0;
     height: 50px;
     width: 100%;
     background: #4c9cf1;
@@ -12,7 +13,7 @@ Reference: W3Schools**/
 
 .navbar ul {
     padding: 0;
-    margin: 0 auto;
+    margin: 0px auto;
     width: 610px;
     height: 40px;
 }
@@ -101,8 +102,8 @@ body {
     font-family: "Time New Roman", Georgia, Serif;
     background-color: #f9f9f9;
     color: #333;
-    padding-top: 16px;
     margin-top: 30px;
+    padding-top: 16px;
 }
 
 #profile-img {
@@ -120,15 +121,15 @@ body {
 }
 
 .center-tab {
-    width: 80%;
+    width: 100%;
     display: block;
     text-align: left;
     height: auto;
+     padding-right:5px;
+    padding-left: 5px;
 }
 
 .container {
-    padding-right: 10px;
-    padding-left: 10px;
     margin: 20px auto;
 }
 
@@ -139,6 +140,8 @@ body {
 
 .section {
     padding-top: 15px;
+    padding-right:5px;
+    padding-left: 5px;
 }
 
 .section-header {
