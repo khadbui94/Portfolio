@@ -15,20 +15,28 @@
     <script src="javascript.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="font/font-mfizz.css">
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
 
 
-
+ 
     <nav class="topNav" id="myNav">
-        <a href="#" class="scroll">Home</a>
+        <a href="#home" class="scroll">Home</a>
         <a href="#about" class="scroll">About</a>
         <a href="#resume" class="scroll">Resume</a>
+         <a href="#projects" class="scroll">Project</a>
         <a href="#contact" class="scroll">Contact</a>
+        <a href="https://khadbui94.github.io/Final/">Research</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </nav>
 
 </head>
 
 <body>
+   <div id="home">
+      <img src="img/profile.jpg" id="profile-img" alt="Profile">
+       <h1>Kha Bui</h1>
+       <h2>"The two most important days in your life are the day you are born and the day you find out why." - Mark Twain</h2>
+   </div>
     <main>
         <section id="about">
             <header>
@@ -36,7 +44,7 @@
             </header>
 
             <div class="tab">
-                <img src="img/profile.jpg" id="profile-img" alt="Profile">
+                
                 <h3>Who I am?</h3>
                 <p>My name is Kha Bui. I am an aspiring web developer studying Computer Science. I am a senior at the University of California, Irvine. I grew up in Viet Nam. I moved to United States few years ago.<br><br> Before going to college, I had no experience with coding and web design. I went to Orange Coast College in 2013 and began my passion in Computer Science. It was first harder than I thought. However, I really enjoyed coding even though I wasn’t very good at it. I started practicing and refine my skills. Later on, I transfer to UCI for my Bachelor Degree in Science. I began going deeper into the major, studying for classes, and working on my side projects. I have worked to develop partnership and leadership through many group projects and activities that I joined. I have completed coursed from basic coding to operating systems, web develop.
                 </p>
@@ -144,17 +152,17 @@
             </header>
             <article>
                 <h4>
-                    <a href=""></a>Restaurant Point Of Sale System </h4>
+                    Restaurant Point Of Sale System <a href="https://github.com/khadbui94/KoalaTea_POS_System"><i class="fa fa-external-link"></i></a></h4>
                 <img src="img/pos.jpg" alt="Point of Sale System" class="center">
                 <p>A point of sale system for Dim Sum restaurant to process food orders and retail transactions. Applied agile method and database management skills to design the application. <br>Accomplishments: A complete Software Requirement Specification document. A system provides useful functionalities with user-friendly design</p>
             </article>
             <article>
-                <h4>Arduino Smart-home Control System</h4>
+                <h4>Arduino Smart-home Control System <a href="google.com"><i class="fa fa-external-link"></i></a></h4>
                 <img src="img/arduino.jpg" alt="Arduino Project" class="center">
                 <p>An automatic system installed at home to measure temperature and rain precipitation. Applied simple weather prediction algorithm to calculate data collected by sensors. Operated Arduino and different sensors using Arduino IDE to collect weather data. Connect and control smart outlets with timer feature.</p>
             </article>
             <article>
-                <h4>FabFlix Movie</h4>
+                <h4>FabFlix Movie <a href="https://github.com/khadbui94/CS-122B"><i class="fa fa-external-link"></i></a></h4>
                 <img src="img/fabflix.JPG" alt="FabFlix Website" class="center">
                 <p>Created a completed website for a movie page called FabFlix. Using Amazon server to publish the site Utilize Ubuntu server on Amazon Web Service to run the site. Using Apache as a service for web base. Perform web design skills: html, css, bootstrap. Perform back-end skills: server coding, database (mySQL), java connection.</p>
             </article>
@@ -173,9 +181,9 @@
                     <a href="https://github.com/"><i class="fa fa-github" style="font-size:60px"></i></a>
                 </div>
                 <form>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                    <input type="text" id="email" name="email" placeholder="Your email..">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name...">
+                    <input type="text" id="lname" name="lastname" placeholder="Your email...">
+                    <input type="text" id="email" name="email" placeholder="Subject...">
                     <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
                     <button class="submitBtn">SEND</button>
                 </form>

@@ -11,7 +11,7 @@ $(document).ready(function () {
     $("#toTop").click(function () {
         $("html, body").animate({
             scrollTop: 0
-        }, 300);
+        }, 500);
         return false;
     });
 });
@@ -32,3 +32,10 @@ function myFunction() {
         e.className = "topNav";
     }
 }
+
+
+$(document).ready(function(){
+    $('.type-it').typeIt({
+        content : 'I am a Web Developer'
+    });
+});

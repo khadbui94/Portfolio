@@ -16,7 +16,7 @@ Reference: W3Schools**/
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .topNav a:hover,
@@ -89,7 +89,7 @@ Reference: W3Schools**/
 
 body {
     font-family: "Time New Roman", Georgia, Serif;
-    //background-color: #f9f9f9;
+    //background-color: #4B77BE;
     padding-top: 16px;
     margin-top: 60px;
     background: url(img/snow.webp) no-repeat top center fixed;
@@ -99,10 +99,33 @@ body {
 #profile-img {
     display: block;
     margin: auto;
-    width: 25%;
     height: auto;
-    border-radius: 80%;
+    border-radius: 50%;
+    border: 4px solid white;
     margin-top: 10px;
+}
+
+#home{
+    height: 100vh;
+    padding: 50px;
+    display: inline-block;
+}
+#home h1 {
+    font: 'Great Vibes', Helvetica, sans-serif;
+    font-size: 8em;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px;
+    text-shadow: 2px 2px white;
+}
+
+#home h2{
+    color: white;
+    text-align: center;
+    font-size: 2.2em;
+    line-height: 2em;
+    word-spacing: 0.1em;
+    font-weight: bold;
 }
 
 section {
@@ -153,6 +176,7 @@ header {
     background-color: rgba(44, 62, 80, 1.0);
     color: white;
 }
+
 
 h2 {
     padding: 15px 15px 15px 0px;
@@ -210,6 +234,10 @@ h2 {
     width: 60%;
     margin: auto;
     padding: 10px;
+}
+
+#projects a{
+    color: white;
 }
 
 @media screen and (max-width: 700px) {
