@@ -32,10 +32,3 @@ function myFunction() {
         e.className = "topNav";
     }
 }
-
-
-$(document).ready(function(){
-    $('.type-it').typeIt({
-        content : 'I am a Web Developer'
-    });
-});
