@@ -59,7 +59,7 @@ Reference: W3Schools**/
 #toTop {
     position: fixed;
     bottom: 70px;
-    right: 20px;
+    right: 100px;
     background-color: #337ab7;
     color: white;
     cursor: pointer;
